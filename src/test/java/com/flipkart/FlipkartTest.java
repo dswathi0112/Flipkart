@@ -22,7 +22,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class FlipkartTest {
 	
 	static WebDriver driver;
-
+	static Wait w;
 	static String days1;
 	static String days2;
 	@BeforeClass
